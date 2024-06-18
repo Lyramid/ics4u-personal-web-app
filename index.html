@@ -17,6 +17,7 @@
     h2{
         text-align: center;
         margin-top: 0;
+        margin-bottom: 5px;
     }
     footer{
         text-align: center;
@@ -57,44 +58,39 @@
     p.subtext{
         margin-bottom: 0;
     }
+    nav{
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    div.textCenter{
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+    }
+    p{
+        grid-column-start: 2;
+        text-align: center;
+    }
 </style>
 <body>
     <header>
         <h1>Leo Lao</h1>
         <h2>Howdy, I'm Leo and this is my web portfolio</h2>
+
         <div class="soloImage">
             <img class="vertical" src="/personal-web-app/assets/self-relaxingInChair.jpg" alt="An image of Leo sitting on a chair in class relaxing with his hands on his head">
         </div>
     </header>
     <main>
-        <div>
-            <h3><u>About Me</u></h3>
-            <p>I am a grade 12 student at Western Technical-Commercial School in the manufacturing Specialist High Skilled Major. My future goals in the technology field is to have a job that is fullfilling and pays me enough where I can live comfortably. </p>
+        <div class="textCenter">
+            <p>Check out the different pages of my website</p>
         </div>
-        <div class="section">
-            <h3><u>My Work</u></h3>
-            <p>Below you will find mages of various technology projects I have done. Most were opportunities available at my highschool.</p>
-            <div class="contentSection">
-                <div class="groupImage">
-                    <img class = "horizontal" src="/personal-web-app/assets/arduino-safetyBoxWiring.jpg" alt="Image of a cardboard box with various arduino wires and circuitry on the outside">
-                    <p class="imageDiscription">This is a prototype of a security box, almost like how museum artifacts are kept in movies</p>
-                </div>
-                <div class="groupImage">
-                    <img class="horizontal" src="/personal-web-app/assets/computerTeardown-spreadOut.jpg" alt="Image of a computer which has had all of its components taken out and spread across a table">
-                    <p class="imageDiscription">I have also diagnosed, fixed, and cleaned computers</p>
-                </div>
-            </div>
-            <div class="contentSection">
-                <div class="groupImage">  
-                    <img class="horizontal" src="/personal-web-app/assets/frc2023-allianceClimb.jpg" alt="Image of FRC Team 865 drive team and alliance partners preparing the robots to climb up onto the charge station, in a match of FRC 2023">
-                    <p class="imageDiscription">I am also the Drive Coach for FRC Team 865</p>
-                </div>
-                <div class="groupImage">
-                    <img class = "horizontal" src="/personal-web-app/assets/arduino-trafiicLight.jpg" alt="An image of an Arduino project with three LEDs simulating a traffic light">
-                    <p class="imageDiscription">This was my first Arduino project that simulated a basic traffic light</p>
-                </div>
-            </div>
-        </div>
+        <nav>
+            <a href="about.html">About Me</a> ||
+            <a href="my-work.html">ICS4U Projects</a> ||
+            <a href="past-projects.html">Past Works</a>
+        </nav>
     </main>
     <footer>
         <h3><u>Contact:</u></h3>

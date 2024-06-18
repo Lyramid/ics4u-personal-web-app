@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: rgb(241, 216, 149);
+    }
+    h1{
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: 0;
+    }
+    h2{
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 100px;
+    }
+    footer{
+        text-align: center;
+    }
+    div.soloImage{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+        height: 500px;
+    }
+    div.groupImage{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        max-width: 100%;
+    }
+    div.contentSection{
+        display: flex;
+    }
+    img.horizontal{
+        height: 400px;
+        width: 600px;
+    }
+    img.vertical{
+        width: 385px;
+        height: 513px;
+    }
+    p.imageDiscription{
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-size: 16px;
+        font-weight: bold;
+        font-style: italic;
+    }
+    p.subtext{
+        margin-bottom: 0;
+    }
+    nav{
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+</style>
+<body>
+    <header>
+        <h1>My Work</h1>
+        <h2>Below you will find images of various technology projects I have done. Most were opportunities available at my highschool</h2>
+    </header>
+    <main>
+        <div class="section">
+            <div class="contentSection">
+                <div class="groupImage">
+                    <img class = "horizontal" src="/personal-web-app/assets/arduino-safetyBoxWiring.jpg" alt="Image of a cardboard box with various arduino wires and circuitry on the outside">
+                    <p class="imageDiscription">This is a prototype of a security box, almost like how museum artifacts are kept in movies</p>
+                </div>
+                <div class="groupImage">
+                    <img class="horizontal" src="/personal-web-app/assets/computerTeardown-spreadOut.jpg" alt="Image of a computer which has had all of its components taken out and spread across a table">
+                    <p class="imageDiscription">I have also diagnosed, fixed, and cleaned computers</p>
+                </div>
+            </div>
+            <div class="contentSection">
+                <div class="groupImage">  
+                    <img class="horizontal" src="/personal-web-app/assets/frc2023-allianceClimb.jpg" alt="Image of FRC Team 865 drive team and alliance partners preparing the robots to climb up onto the charge station, in a match of FRC 2023">
+                    <p class="imageDiscription">I am also the Drive Coach for FRC Team 865</p>
+                </div>
+                <div class="groupImage">
+                    <img class = "horizontal" src="/personal-web-app/assets/arduino-trafiicLight.jpg" alt="An image of an Arduino project with three LEDs simulating a traffic light">
+                    <p class="imageDiscription">This was my first Arduino project that simulated a basic traffic light</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h3><u>Contact:</u></h3>
+        <p class="subtext">Web App created by Leo Lao 2024</p>
+        <a href="leo.lao@student.tdsb.on.ca">Email</a>
+        <nav>
+            <a href="index.html">Home</a> ||
+            <a href="about.html">About Me</a> ||
+            <a href="my-work.html">ICS4U Projects</a> 
+        </nav>
+    </footer>
+</body>
+</html>

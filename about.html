@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+</head>
+<style>
+    body{
+        background-color: rgb(241, 216, 149);
+    }
+    h1{
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: 5px;
+    }
+    h2{
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+    h3{
+        text-align: center;
+        margin-top: 50px;
+    }
+    footer{
+        text-align: center;
+    }
+    div.soloImage{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+        height: 500px;
+    }
+    div.groupImage{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        max-width: 100%;
+    }
+    div.contentSection{
+        display: flex;
+    }
+    img.horizontal{
+        height: 400px;
+        width: 600px;
+    }
+    img.vertical{
+        width: 385px;
+        height: 513px;
+    }
+    p.imageDiscription{
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-size: 16px;
+        font-weight: bold;
+        font-style: italic;
+    }
+    p.subtext{
+        margin-bottom: 0;
+    }
+    nav{
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    div.textCenter{
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+    }
+    p{
+        grid-column-start: 2;
+        text-align: center;
+    }
+</style>
+<body>
+    <header>
+        <h1>About Me</h1>
+    </header>
+    <main>
+        <div class="soloImage">
+            <img class="vertical" src="/personal-web-app/assets/self-chillingGoose.jpg" alt="Leo doing two thumbs up with geese in the background">
+        </div>
+        <div>
+            <div class="textCenter">
+                <p>
+                    I am a grade 12 student at Western Technical-Commercial School in the manufacturing Specialist High Skilled Major. 
+                    My future goals in the technology field is to have a job that is fullfilling and pays me enough where I can live comfortably. 
+                    I will be going to McMaster University in the fall for the Engineering 1 program.
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h3><u>Contact:</u></h3>
+        <p class="subtext">Web App created by Leo Lao 2024</p>
+        <a href="leo.lao@student.tdsb.on.ca">Email</a>
+        <nav>
+            <a href="index.html">Home</a> ||
+            <a href="my-work.html">ICS4U Projects</a> ||
+            <a href="past-projects.html">Past Works</a>
+        </nav>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Work</title>
+    <script src="https://unpkg.com/kaboom@3000.1.17/dist/kaboom.js"></script>
+</head>
+<style>
+    body{
+        background-color: rgb(241, 216, 149);
+    }
+    h1{
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: 0;
+    }
+    h2{
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+    h3{
+        grid-column-start: 2;
+        margin-bottom: 0px;
+
+    }
+    footer{
+        text-align: center;
+    }
+    div.soloImage{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+        height: 500px;
+    }
+    div.groupImage{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        max-width: 100%;
+    }
+    div.contentSection{
+        display: flex;
+        justify-content: center;
+    }
+    img.horizontal{
+        height: 400px;
+        width: 600px;
+    }
+    img.vertical{
+        width: 385px;
+        height: 513px;
+    }
+    p.imageDiscription{
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-size: 16px;
+        font-weight: bold;
+        font-style: italic;
+    }
+    p.subtext{
+        margin-bottom: 0;
+    }
+    nav{
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 50px;
+    }
+    div.textCenter{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+    }
+    p.grid{
+        grid-column-start: 2;
+        text-align: start;
+        margin: 5px;
+    }
+    div.gameBox{
+        display: flex;
+        justify-content: center;
+    }
+
+</style>
+<body>
+    <header>
+        <h1>ICS4U Projects</h1>
+        <h2>Below are the two ICS4U assignments I coded</h2>
+    </header>
+    <main>
+        <div>
+            <div class="textCenter">
+                <h3><u>Culminating Project:</u></h3>
+                <p class="grid">
+                    Below is the javascript game that I coded for my culminating.
+                    It is flash game inspired but the current gameplay is kind of like a visual novel except no choices currently. 
+                    I definetly overestimated the time it would take to research and pick up javascript,
+                    and ended up rushing to get a "working" base that I am happy with.
+                </p>
+            </div>
+            <div class="gameBox">
+                <canvas id="gameCanvas"></canvas>
+                <script src = "game.js"></script>
+            </div>
+            <div class="textCenter">
+                <p class="grid">
+                    I coded the app with the kaboom.js library, which acted as a game engine.
+                    Learning to utilize it, as well as learning javascript was a big challenge.
+                    Trying to figure out how to do things took a lot of time and brain power,
+                    causing me to lose motivation in my work on multiple occasions.
+                    But powering through with lots of help from google and the kaboom doccumentation
+                    allowed me to get the project to a state where I am quite proud of my work.
+                    It really captured the essense of what I set out to do,
+                    creating something inspired by the flash games of my childhood.
+                </p>
+            </div>
+            <div class="textCenter">
+                <p class="grid">
+                    My future plans for the project is to add sound and music to the game,
+                    create more levels and add to the gameplay, either through user choices,
+                    or other actionable items (stocking or selling inventory for example).
+                </p>
+            </div>
+            <div class="contentSection">
+                <a href="https://github.com/Lyramid/ics4u-culminating">Github project repository link</a>
+            </div>
+        </div>
+        <div>
+            <div class="textCenter">
+                <h3><u>GUI app:</u></h3>
+                <p class="grid">
+                    Below is the project I coded in java with my classmate Max for the GUI assignment.
+                    Where we had to code an app that utilized a GUI in some way. Our idea is akin to 
+                    "The Impossible Quiz" which was popular on the internet a while back. 
+                    Asking similarly unstraight forward questions with what we hoped are not obvious answers.
+                    I'm really happy with the varity of question types we have. The biggest challenge we faced
+                    when programming it was figuring out how to diferetiate between the user clicking the X button
+                    or the cancel button, since the library registers them very similarly.
+                    We ended up comprimising and accepting both as correct inputs for the question. 
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h3><u>Contact:</u></h3>
+        <p class="subtext">Web App created by Leo Lao 2024</p>
+        <a href="leo.lao@student.tdsb.on.ca">Email</a>
+        <nav>
+            <a href="index.html">Home</a> ||
+            <a href="about.html">About Me</a> ||
+            <a href="past-projects.html">Past Works</a>
+        </nav>
+    </footer>
+</body>
+</html>
